@@ -1,0 +1,13 @@
+smc-host: <SMC-IP-ADDRESS>
+smc-port: <SMC-PORT>
+smc-api-key: <SMC-API-KEY>>
+smc-api-version: 6.7
+gateway-profile:
+ngfw-azure-locations:
+  - {'NGFW EMEA 1': 'North Europe'}
+  - {'NGFW US 1': 'East US'}
+  - {'NGFW APAC 1': 'Japan West'}
+ngfw-external-interface-ip: {'NGFW EMEA 1': '192.168.122.100','NGFW US 1': '192.168.122.200', 'NGFW APAC 1': '192.168.122.150'}
+ngfw-external-address-space: {'NGFW EMEA 1': '192.168.122.0/24','NGFW US 1': '192.168.122.0/24', 'NGFW APAC 1': '192.168.122.0/24'}
+ngfw-internal-vpn-interface-ip: {'NGFW EMEA 1': '172.16.16.1','NGFW US 1': '172.16.16.1', 'NGFW APAC 1': '172.16.16.1'}
+ngfw-internal-vpn-address-space: {'NGFW EMEA 1': '172.16.16.1/32','NGFW US 1': '172.16.16.1/32','NGFW APAC 1': '172.16.16.1/32'}
